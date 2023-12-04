@@ -1,0 +1,15 @@
+/home/hbr/advent2024/bin/Debug/net7.0/advent2024
+/home/hbr/advent2024/bin/Debug/net7.0/advent2024.deps.json
+/home/hbr/advent2024/bin/Debug/net7.0/advent2024.runtimeconfig.json
+/home/hbr/advent2024/bin/Debug/net7.0/advent2024.dll
+/home/hbr/advent2024/bin/Debug/net7.0/advent2024.pdb
+/home/hbr/advent2024/obj/Debug/net7.0/advent2024.csproj.AssemblyReference.cache
+/home/hbr/advent2024/obj/Debug/net7.0/advent2024.GeneratedMSBuildEditorConfig.editorconfig
+/home/hbr/advent2024/obj/Debug/net7.0/advent2024.AssemblyInfoInputs.cache
+/home/hbr/advent2024/obj/Debug/net7.0/advent2024.AssemblyInfo.cs
+/home/hbr/advent2024/obj/Debug/net7.0/advent2024.csproj.CoreCompileInputs.cache
+/home/hbr/advent2024/obj/Debug/net7.0/advent2024.dll
+/home/hbr/advent2024/obj/Debug/net7.0/refint/advent2024.dll
+/home/hbr/advent2024/obj/Debug/net7.0/advent2024.pdb
+/home/hbr/advent2024/obj/Debug/net7.0/advent2024.genruntimeconfig.cache
+/home/hbr/advent2024/obj/Debug/net7.0/ref/advent2024.dll

@@ -4,9 +4,9 @@ Console.WriteLine("Advent Of Code 2023");
 
 int day = 1;
 
-Day1.Solve(Advent.ProblemOfTheDay(day)); 
+//Day1.Solve(Advent.ProblemOfTheDay(day)); 
 day++;
-//Day2.Solve(Advent.ProblemOfTheDay(day));
+Day2.Solve(Advent.ProblemOfTheDay(day));
 
 
 public static class Advent

@@ -2,17 +2,21 @@
 
 Console.WriteLine("Advent Of Code 2023");
 
-int day = 1;
-
-//Day1.Solve(Advent.ProblemOfTheDay(day)); 
-day++;
-Day2.Solve(Advent.ProblemOfTheDay(day));
-
+//Day1.Solve(Advent.ProblemOfTheDay()); 
+Advent.NextDay();
+//Day2.Solve(Advent.ProblemOfTheDay(day));
+Advent.NextDay();
+Day3.Solve(Advent.ProblemOfTheDay());
 
 public static class Advent
 {
-    public static string ProblemOfTheDay(int day)
+    public static int Day = 1;
+    public static string ProblemOfTheDay()
     {
-        return $"/home/hbr/advent2024/inputs/day{day}.txt";
+        return $"/home/hbr/advent2024/inputs/day{Day}.txt";
+    }
+
+    public static void NextDay() {
+        Day++;
     }
 }

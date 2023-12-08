@@ -27,7 +27,7 @@ public class Day2 : IAdventDay
             Round minimalRound = game.MinimalAmountOfCubes(game.Rounds);
             int cubePower = 1;
             foreach (var cube in minimalRound.cubes) {
-                cube.Count *= cubePower;
+                cubePower *= cube.Count;
             }
 
             sum += cubePower;

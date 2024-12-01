@@ -5,11 +5,11 @@ pub struct Day1 {
 }
 
 impl Day1 {
-    pub fn new(input: String) -> Day1{
+    pub fn new(input: String) -> Day1 {
         Day1 {
             input: input,
             left_numbers: Vec::new(),
-            right_numbers: Vec::new()
+            right_numbers: Vec::new(),
         }
     }
 
@@ -77,7 +77,7 @@ impl Day1 {
             let left_number: usize = self.left_numbers[i].try_into().unwrap();
             count = count + number_of_occurences * left_number;
         }
-    
+
         println!("Similarity score: {}", count);
     }
 }

@@ -1,1 +1,0 @@
-/home/hbr/AdventOfCode/2024/adventrust/target/debug/adventrust: /home/hbr/AdventOfCode/2024/adventrust/src/days/day1.rs /home/hbr/AdventOfCode/2024/adventrust/src/days/mod.rs /home/hbr/AdventOfCode/2024/adventrust/src/main.rs

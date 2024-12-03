@@ -2,11 +2,21 @@ mod days;
 
 use days::day1::Day1;
 use days::day2::Day2;
+use days::day3::Day3;
 use std::fs;
 
 fn main() {
     //solve_day1();
-    solve_day2();
+    //solve_day2();
+    solve_day3();
+}
+
+fn solve_day3() {
+    let day3_input_path: &str = "src/inputs/day3";
+
+    let day3_input: String = get_input_string(day3_input_path);
+    Day3::part1(day3_input.clone());
+    Day3::part2(day3_input);
 }
 
 fn solve_day2() {

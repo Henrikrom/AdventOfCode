@@ -3,12 +3,22 @@ mod days;
 use days::day1::Day1;
 use days::day2::Day2;
 use days::day3::Day3;
+use days::day4::Day4;
 use std::fs;
 
 fn main() {
     //solve_day1();
     //solve_day2();
-    solve_day3();
+    //solve_day3();
+    solve_day4();
+}
+
+fn solve_day4() {
+    let day4_input_path: &str = "src/inputs/day4";
+
+    let day4_input: String = get_input_string(day4_input_path);
+    //Day4::part1(&day4_input);
+    Day4::part2(&day4_input);
 }
 
 fn solve_day3() {

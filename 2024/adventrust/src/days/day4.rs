@@ -86,7 +86,7 @@ impl Day4 {
             }
         }
 
-        let mut count = 0;
+        let count = 0;
     
         if up_left == 'M' && up_right == 'M' && down_left == 'S' && down_right == 'S' {
             return 1;

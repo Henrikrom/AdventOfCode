@@ -5,6 +5,8 @@ use days::day2::Day2;
 use days::day3::Day3;
 use days::day4::Day4;
 use days::day5::Day5;
+use days::day6::Day6;
+use days::day7::Day7;
 use std::fs;
 
 fn main() {
@@ -12,7 +14,27 @@ fn main() {
     //solve_day2();
     //solve_day3();
     //solve_day4();
-    solve_day5();
+    //solve_day5();
+    //solve_day6();
+    solve_day7();
+}
+
+fn solve_day7() {
+    let day7_input_path: &str = "src/inputs/day7_test";
+
+    let day7_input: String = get_input_string(day7_input_path);
+    let parsed_input = Day7::parse(&day7_input);
+    //let parsed_map = Day7::parse_map(&day7_input);
+    //Day7::part1(&mut parsed_map.clone());
+}
+
+fn solve_day6() {
+    let day6_input_path: &str = "src/inputs/day6";
+
+    let day6_input: String = get_input_string(day6_input_path);
+    let parsed_map = Day6::parse_map(&day6_input);
+    //Day6::part1(&mut parsed_map.clone());
+    Day6::part2(&mut parsed_map.clone());
 }
 
 fn solve_day5() {

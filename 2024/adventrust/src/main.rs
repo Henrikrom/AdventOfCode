@@ -20,10 +20,11 @@ fn main() {
 }
 
 fn solve_day7() {
-    let day7_input_path: &str = "src/inputs/day7_test";
+    let day7_input_path: &str = "src/inputs/day7";
 
     let day7_input: String = get_input_string(day7_input_path);
     let parsed_input = Day7::parse(&day7_input);
+    //Day7::part1(&parsed_input);
     //let parsed_map = Day7::parse_map(&day7_input);
     //Day7::part1(&mut parsed_map.clone());
 }

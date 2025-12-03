@@ -6,5 +6,6 @@ import (
 
 func main() {
 	day02.SolvePart1()
+	day02.SolvePart2()
 }
 
